@@ -1,0 +1,302 @@
+/*
+Code snippet by maridlcrmn for Bootsnipp.com
+Follow me on Twitter @maridlcrmn
+
+
+*/
+
+@font-face
+{
+	font-family: Montserrat-Regular;
+    src: url('Montserrat-Regular.otf');
+}
+
+body
+{
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.navbarNews
+{
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+
+
+.navbar-brand 
+{
+	position: relative; z-index: 2; 
+}
+
+.navbar-nav.navbar-right .btn 
+{ 
+	position: relative; z-index: 2; padding: 4px 40px; margin: 10px auto; 
+}
+
+.navbar .navbar-collapse 
+{ 
+	position: relative; 
+}
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #FFF; }
+.navbar.navbar-nav .nav-collapse { background-color: #FFF; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+}
+
+.navbar-form {
+	padding: 0px 111px;
+}
+/*home*/
+
+.photo_1
+{
+	width: 100%;
+	filter: brightness(60%);
+}
+
+.photo_2
+{
+	width: 100%;
+	background-color:hsla(120,100%,75%,0.3);
+}
+
+.padding-box
+{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.atur-box
+{
+	position: relative;
+}
+
+.text-image
+{
+	position:absolute;
+	bottom: 8px;
+	color:#FFF;
+	text-align: center;
+	width: 100%;
+	left:0;
+}
+
+.text-image2
+{
+	position:absolute;
+	top:35%;
+	color:#FFF;
+	text-align: center;
+	width: 100%;
+	left:0;
+
+}
+
+.text-category2
+{
+	position:absolute;
+	top:20%;
+	color:#FFF;
+	text-align: center;
+	width: 100%;
+	left:0;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.text-category
+{
+	position:absolute;
+	bottom: 20%;
+	color:#FFF;
+	text-align: center;
+	width: 100%;
+	left:0;
+	
+	font-size: 55px;
+	font-weight: bold;
+}
+
+
+.space
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.line-home2
+{
+	width: 40%;
+	height: 1px;
+	background-color: #000;
+	vertical-align: middle;
+	top:33px;
+}
+
+.line-home
+{
+	margin-left: 12px;
+	width: 40%;
+	height: 1px;
+	background-color: #000;
+	vertical-align: middle;
+	top:33px;
+}
+
+.card
+{
+	-webkit-box-shadow: 1px 2px 42px 4px rgba(194,194,194,1);
+    -moz-box-shadow: 1px 2px 42px 4px rgba(194,194,194,1);
+	box-shadow: 1px 2px 42px 4px rgba(194,194,194,1);
+	padding-bottom: 5px;
+}
+
+.card-title
+{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.card-text
+{
+	padding: 15px;
+	text-align: center;
+}
+
+
+/*FOOTER*/
+
+.footer
+{
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	background-color: #373737;
+	color:#FFF;
+	margin-top: 40px;
+}
+
+.footer h4
+{
+	margin-top: 30px;
+	margin-bottom: 35px;
+	margin-right: 10px;
+
+}
+
+.rapih
+{
+	margin-bottom: 20px;
+}
+
+.footer img
+{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+
+
+.rgba
+{
+	background: rgba(200, 54, 54, 0.5); 
+}
+
+.title-news
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.photo_news
+{
+	margin-bottom: 30px;
+}
+
+.recommend-news
+{
+	color: #7e7e7e;
+	margin-bottom: 15px;
+	margin-top:15px;
+}
+
+/*SIGN IN UP */
+
+.signInUp
+{
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	margin-top: 215px;
+	margin-bottom: 215px;
+}
+
+.login-form
+{
+	color: #9d9d9d;
+}
+
+input
+{
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+
+}
+
+.input-form
+{
+	margin-bottom: 10px;
+	background-color: #FFF;
+	border : 2px solid #9c9c9c;
+}
+
+.input-login
+{
+	color: #FFF;
+	background-color:#7bafdf;
+	text-decoration: none;
+	border: 1px solid #7bafdf;
+}
+
+.or-views>p
+{
+	text-align: center;	
+	margin-top: 10px;
+}
+photo
+.form-login
+{
+	margin-top: 60px;
+}
+
+.line-top
+{
+	width: 1px;
+	height: 130px;
+	background-color: #9c9c9c;
+	margin-bottom: 10px;
+}
+
+.line-bot
+{
+	width: 1px;
+	height: 130px;
+	background-color: #9c9c9c;	
+}
+
+.form-login>label
+{
+	color: #9c9c9c;
+}
+
